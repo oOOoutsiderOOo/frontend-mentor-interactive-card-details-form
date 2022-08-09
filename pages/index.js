@@ -192,7 +192,7 @@ export default function Home() {
                 <div className="thanks-container">
                     <img src="/images/icon-complete.svg" alt="" />
                     <h1>THANK YOU!</h1>
-                    <p>We've added your card details</p>
+                    <p>{"We've added your card details"}</p>
                     <button className="btn" onClick={() => setCompleted(false)}>
                         Continue
                     </button>
