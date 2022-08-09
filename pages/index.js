@@ -101,7 +101,7 @@ export default function Home() {
                                 }}
                             />
                             <div id="e-name" className="error hidden-error">
-                                Can't be blank
+                                {"Can't be blank"}
                             </div>
                         </div>
                         <div className="form-row">
@@ -120,7 +120,7 @@ export default function Home() {
                                 }}
                             />
                             <div id="e-number" className="error hidden-error">
-                                Can't be blank
+                                {"Can't be blank"}
                             </div>
                         </div>
                         <div className="row-container">
@@ -158,7 +158,7 @@ export default function Home() {
                                 }}
                             />
                             <div id="e-date" className="error e-date hidden-error">
-                                Can't be blank
+                                {"Can't be blank"}
                             </div>
                             <label className="CVC-label" htmlFor="">
                                 CVC
@@ -178,7 +178,7 @@ export default function Home() {
                                 }}
                             />
                             <div id="e-CVC" className="error e-CVC hidden-error" value={CVC}>
-                                Can't be blank
+                                {"Can't be blank"}
                             </div>
                         </div>
 
